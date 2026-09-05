@@ -1,0 +1,18 @@
+let numbers = [1, 2, 3]
+
+push(numbers, 4)
+push(numbers, 5)
+
+say numbers
+say "length = " + str(len(numbers))
+say "first = " + str(numbers[0])
+
+let profile = {
+    "name": "Nova",
+    "version": 1,
+    "active": true
+}
+
+say profile["name"]
+set profile["version"] = profile["version"] + 1
+say profile
