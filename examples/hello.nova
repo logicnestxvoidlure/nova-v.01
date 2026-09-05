@@ -1,0 +1,11 @@
+say "Hello from Nova!"
+
+let name = "world"
+let answer = 6 * 7
+
+say "Hello, " + name
+say "The answer is " + str(answer)
+
+if answer == 42 {
+    say "Everything checks out."
+}
