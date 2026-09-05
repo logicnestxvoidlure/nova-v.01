@@ -1,0 +1,22 @@
+fn greet(name) {
+    return "Hello, " + name + "!"
+}
+
+let people = ["Ada", "Grace", "Linus"]
+
+for person in people {
+    say greet(person)
+}
+
+let scores = {"Ada": 98, "Grace": 100, "Linus": 95}
+
+for key in keys(scores) {
+    say key + ": " + str(scores[key])
+}
+
+let total = 0
+for score in values(scores) {
+    set total = total + score
+}
+
+say "Average: " + str(total / len(scores))
